@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 10% 1fr;
+    grid-template-rows: 1fr 5% 1fr;
+    background: url(https://picsum.photos/1200?random=2);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%; 
+    background-size: cover;
+    min-height: 100vh;
+}
+
+form {
+    background-color: lightsalmon;
+    border-radius: 50px;
+    box-shadow: 39px 39px 77px, -39px -39px 77px;
+    padding: 5% 10%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.one {
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+grid-column: 1;
+grid-row: 1;
+
+}
+.two {
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+grid-column:3;
+grid-row: 1;
+
+}
+.three {
+
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+grid-column: 1;
+grid-row:3;
+}
+h2 {
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+input{
+    width: 100px 50px;
+    margin: 10%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 5% 10%;
+    justify-content: center;
+}
+label {
+    display: none;
+}
